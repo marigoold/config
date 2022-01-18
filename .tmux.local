@@ -5,6 +5,7 @@ set -g base-index 1
 set -g renumber-windows on
 # set -g mouse on
 set -wg pane-base-index 1
+set -g default-terminal "tmux-256color"
 # rename-window
 set -wg allow-rename off
 set -wg automatic-rename off
