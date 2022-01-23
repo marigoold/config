@@ -43,3 +43,4 @@ set -wg pane-border-style "fg=#ffffff"       # base01
 # ------- copy to clipboard ------------------------
 # bind -t vi-copy y copy-pipe 'xclip -selection clipboard > /dev/null'
 # bind -t vi-copy y copy-pipe "reattach-to-user-namespace pbcopy"
+set-option -g default-shell /bin/zsh
